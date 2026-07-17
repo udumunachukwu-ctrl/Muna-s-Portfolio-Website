@@ -53,6 +53,5 @@ valid email format (regex), phone is digits-only: `contact.html` + `contact.js`.
 
 ## Deployment notes
 
-Any static host works (Netlify, GitHub Pages, Vercel). No build step required —
-plain HTML/CSS/JS. To add the optional audio introduction, place an `intro.mp3`
-file inside `assets/`.
+Deployed on Netlify as a Static Portfolio Website.
+Thank you
