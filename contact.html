@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Contact — Justin Udu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar wrap">
+    <a href="index.html" class="brand"><span class="dot"></span>Justin Udu</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<main>
+  <section class="wrap" style="padding-top:clamp(2.5rem,6vw,4rem);">
+    <div class="section-head reveal">
+      <span class="eyebrow">Contact</span>
+      <h2>Let's talk</h2>
+      <p>Reach out for collaboration, questions, or just to connect.</p>
+    </div>
+
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <div class="card">
+          <div class="item">
+            <div class="ic">✉</div>
+            <div><span class="label">Email</span><a href="mailto:udumunachukwu@gmail.com">udumunachukwu@gmail.com</a></div>
+          </div>
+          <div class="item">
+            <div class="ic">☎</div>
+            <div><span class="label">Phone</span><span>+234 912 836 9130</span></div>
+          </div>
+          <div class="item">
+            <div class="ic">GH</div>
+            <div><span class="label">GitHub</span><a href="https://github.com/udumunachukwu-ctrl" target="_blank" rel="noopener">udumunachukwu-ctrl</a></div>
+          </div>
+          <div class="item">
+            <div class="ic">IG</div>
+            <div><span class="label">Instagram</span><a href="https://www.instagram.com/everyonehates_muna" target="_blank" rel="noopener">@everyonehates_muna</a></div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" />
+          <div class="error-msg" id="name-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="text" id="email" name="email" placeholder="you@example.com" />
+          <div class="error-msg" id="email-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone number</label>
+          <input type="text" id="phone" name="phone" placeholder="Digits only, e.g. 09128369130" />
+          <div class="error-msg" id="phone-error"></div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="What would you like to say?"></textarea>
+          <div class="error-msg" id="message-error"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <div class="form-status" id="form-status"></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© 2026 Justin Udu. Built for academic purposes — COS 106 Term Project.</span>
+    <div class="footer-social">
+      <a href="https://github.com/udumunachukwu-ctrl" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+      <a href="https://www.instagram.com/everyonehates_muna" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <a href="mailto:udumunachukwu@gmail.com" aria-label="Email">✉</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>

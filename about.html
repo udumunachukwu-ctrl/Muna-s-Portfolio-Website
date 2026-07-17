@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>About Me — Justin Udu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-bar wrap">
+    <a href="index.html" class="brand"><span class="dot"></span>Justin Udu</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="planner.html">Academic Planner</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<main>
+  <section class="wrap" style="padding-top:clamp(2.5rem,6vw,4rem);">
+    <div class="section-head reveal">
+      <span class="eyebrow">About me</span>
+      <h2>Educational background & aspirations</h2>
+      <p>Where I've been, what I'm learning, and where I want to end up.</p>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <div class="year">2026 – Present</div>
+        <h4>Miva Open University</h4>
+        <p>B.Sc. Cyber Security — 100 Level</p>
+      </div>
+      <div class="timeline-item">
+        <div class="year">2022 – 2025</div>
+        <h4>Topgrade Secondary School</h4>
+        <p>Completed secondary education</p>
+      </div>
+    </div>
+
+    <table class="data-table reveal" style="margin-top:1rem;">
+      <thead>
+        <tr><th>Institution</th><th>Qualification</th><th>Year</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Miva Open University</td><td>B.Sc. Cyber Security (100 Level)</td><td>2026 – Present</td></tr>
+        <tr><td>Topgrade Secondary School</td><td>Completed</td><td>2022 – 2025</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="grid grid-2">
+        <div class="reveal">
+          <span class="eyebrow">Where I'm headed</span>
+          <h2 style="font-family:var(--font-display); font-size:1.6rem; margin-bottom:1rem;">Career goals & aspirations</h2>
+          <ul class="check-list">
+            <li>Become a professional Cyber Security Analyst</li>
+            <li>Earn certifications such as CompTIA Security+, CEH, and CISSP</li>
+            <li>Build secure websites and applications</li>
+            <li>Work for a leading technology company</li>
+            <li>Continuously sharpen my programming and security skills</li>
+          </ul>
+        </div>
+
+        <div class="reveal">
+          <span class="eyebrow">Beyond the screen</span>
+          <h2 style="font-family:var(--font-display); font-size:1.6rem; margin-bottom:1rem;">Hobbies & interests</h2>
+          <ul class="check-list">
+            <li>Exploring new technology and how systems are built</li>
+            <li>Practising web development on personal projects</li>
+            <li>Following cybersecurity news and case studies</li>
+            <li>Gaming — strategy and puzzle-solving titles</li>
+            <li>Photography, mostly candid and everyday shots</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap reveal">
+      <span class="eyebrow">In my own words</span>
+      <h2 style="font-family:var(--font-display); font-size:1.6rem; margin-bottom:1rem;">A short introduction</h2>
+      <p style="color:var(--text-dim); margin-bottom:1rem; max-width:60ch;">
+        A short recorded introduction goes here once available. Drop an MP3 file into the
+        <code>assets</code> folder named <code>intro.mp3</code> and it will play below —
+        the player is already wired up.
+      </p>
+      <audio controls style="width:100%; max-width:520px;">
+        <source src="assets/intro.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Technical skills</span>
+        <h2>What I'm building up right now</h2>
+        <p>Still early in the degree — these are foundations I'm actively strengthening.</p>
+      </div>
+
+      <div class="grid grid-2 reveal">
+        <div>
+          <div class="skill-row">
+            <div class="label"><span>HTML & CSS</span><span>70%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="70"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="label"><span>JavaScript</span><span>55%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="55"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="label"><span>Networking Fundamentals</span><span>50%</span></div>
+            <div class="skill-track"><div class="skill-fill red" data-level="50"></div></div>
+          </div>
+        </div>
+        <div>
+          <div class="skill-row">
+            <div class="label"><span>Security Concepts</span><span>45%</span></div>
+            <div class="skill-track"><div class="skill-fill red" data-level="45"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="label"><span>Linux / Command Line</span><span>40%</span></div>
+            <div class="skill-track"><div class="skill-fill" data-level="40"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="label"><span>Problem Solving</span><span>75%</span></div>
+            <div class="skill-track"><div class="skill-fill red" data-level="75"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© 2026 Justin Udu. Built for academic purposes — COS 106 Term Project.</span>
+    <div class="footer-social">
+      <a href="https://github.com/udumunachukwu-ctrl" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+      <a href="https://www.instagram.com/everyonehates_muna" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+      <a href="mailto:udumunachukwu@gmail.com" aria-label="Email">✉</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
